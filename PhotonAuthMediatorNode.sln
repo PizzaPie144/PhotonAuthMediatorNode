@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "PhotonAuthMediatorNode", "PhotonAuthMediatorNode\PhotonAuthMediatorNode.njsproj", "{A976CBBD-3D3C-4F11-93BC-54E77FAB5301}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A976CBBD-3D3C-4F11-93BC-54E77FAB5301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A976CBBD-3D3C-4F11-93BC-54E77FAB5301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A976CBBD-3D3C-4F11-93BC-54E77FAB5301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A976CBBD-3D3C-4F11-93BC-54E77FAB5301}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5630A466-9181-4C37-AC04-9E7D5FCCB5CE}
+	EndGlobalSection
+EndGlobal

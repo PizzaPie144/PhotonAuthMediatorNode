@@ -4,8 +4,8 @@ var port = process.env.PORT || 3000;
 
 const express = require("express");
 const /*{ initializeApp }*/ admin = require('firebase-admin/app');
-//const { getAuth } = require('firebase-admin/auth');
-import { getAuth } from "firebase/auth";
+const { getAuth } = require('firebase-admin/auth');
+//import { getAuth } from "firebase/auth";
 const app = express();
 app.use(express.json());
 

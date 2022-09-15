@@ -15,7 +15,7 @@ app.use(
 );
 
 const firebaseApp = admin.initializeApp({              //use env var for service account json file path
-    credential: applicationDefault()
+    credential: admin.credential.applicationDefault()
 });
 
 const auth = getAuth(firebaseApp);

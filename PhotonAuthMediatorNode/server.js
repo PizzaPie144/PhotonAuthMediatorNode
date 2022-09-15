@@ -18,7 +18,7 @@ const firebaseApp = admin.initializeApp();//{              //use env var for ser
 //    credential: admin.credential.applicationDefault()
 //});
 
-const auth = firebaseApp.getAuth(firebaseApp);
+const auth = getAuth();
 
 
 app.get("/auth", (req, res) => {
